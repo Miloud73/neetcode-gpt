@@ -10,6 +10,5 @@ class Solution:
         pass
 
     def relu(self, z: NDArray[np.float64]) -> NDArray[np.float64]:
-        res= np.maximum(0, z)
-        return np.round(res,5)
+        return np.maximum(0, z)
         pass
